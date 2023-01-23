@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width= , initial-scale=1.0">
+   <title>Css Variable With JS </title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <h2>Update Css Variable <span class="h2">JS</span></h2>
+   <div class="controls">
+      <div class="padding handle">
+         <label for="padding">padding: </label>
+         <input type="range" name="padding" id="padding" data-sizing="px" value="10" min="2" max="200">
+         <span class="value"></span>
+      </div>
+      <div class="blur handle">
+         <label for="blur">blur: </label>
+         <input type="range" name="blur" id="blur" data-sizing="px" value="1" min="0" max="25">
+         <span class="value"></span>
+      </div>
+      <div class="resize handle">
+         <label for="resize">Resize Width: </label>
+         <input type="range" name="resize" id="resize" data-sizing="px" value="1" min="100" max="700">
+         <span class="value"></span>
+      </div>
+      <div class="color handle">
+         <label for="color">color: </label>
+         <input type="color" name="color" id="color"  value="#ff2123" >
+         <span class="value"></span>
+      </div>
+   </div>
+
+<div class="img"><img src="image/desert.jpg" alt=""></div>
+
+
+   <script src="javascript.js"></script>
+
+</body>
+
+</html>
